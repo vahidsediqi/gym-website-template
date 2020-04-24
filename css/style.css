@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Archivo Narrow', sans-serif !important ;
+
+}
+ /* utilities */
+
+ .btn {
+   background: #282C34 !important;
+   color: white !important;
+   padding: 9px 30px !important;
+   margin-top: 15px;
+   font-size: 20px !important;
+ }
+/* navbar */
+
+.logo {
+  width: 150px;
+  height: 80px;
+}
+/* nav / */
+#banner > div > nav > button > span {
+  color: white !important;
+}
+
+li a {
+  padding-left: 50px !important;
+  font-size: 1.5rem !important;
+}
+ .btn:hover {
+   color: yellow !important;
+ }
+.navbar-brand{
+  font-family: 'Underdog', cursive;
+
+}
+#banner{
+  height: 350px;
+  width: 100%;
+  position: relative;
+  background: url('../img/oneFit.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: 'Underdog', cursive;
+}
+
+@media (max-width: 768px) {
+ #banner {
+   height: 450px;
+ }
+}
+
+.line{
+  height: 2px;
+  background-color: yellow;
+  width: 250px;
+}
+
+/* showcase */
+
+.showcase-images{
+  margin-top: 35px;
+  height: auto;
+  width: 300px;
+}
+
+.showcase-overlay {
+  position: relative;
+  z-index: 2;
+  font-size: 4em;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.carousel-item{
+  text-align: center;
+}
+.showcase .container {
+  text-align: center;
+}
+
+@media (max-width: 350px) {
+  .showcase-overlay {
+    font-size: 1.5em;
+  }
+}
+/* services */
+
+.services {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.fas {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.services .text {
+  color: #fff;
+
+}
+
+/* carousel */
+
+.carousel-images {
+  height: 350px;
+ width: 350px;
+  margin: 0 auto;
+  margin-top: 35px;
+  border-radius: 50%;
+}
+
+.trainers-icon {
+  font-size: 2rem;
+  padding: 15px;
+}
+
+footer{
+  font-family: Arial;
+}
+
+footer .col a{
+  font-size: 15px !important;
+}
